@@ -3,7 +3,7 @@
 * Copyright to ForumotionJS at GitHub 
 */
 
-/* Wrapped in JOL (JavaScript Object Literal) to avoid unwanted issues regarding the code */
+/* Wrapped in JOL (JavaScript Object Literal) because I'm too lazy to build a prototype and things */
 var fmLib = {
    localData: {
     "user_level" = _userdata.user_level,
