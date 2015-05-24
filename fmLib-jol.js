@@ -15,5 +15,14 @@ var fmLib = {
     "user_constructor" = _userdata.constructor,
     "user_reps" = _userdata.point_reputation,
     "user_toolbar" = _userdata.active_toolbar
-  }
-}
+  },
+  add: function(klass, str) {
+   var enc = encodeURIComponent(klass);
+   if(klass.includes(.)) {
+    klass = document.getElementsByTagName;
+   }else if(klass.includes(#)){
+    klass = document.getElementById;
+   }else{
+    alert('Not valid!');
+   } 
+};
